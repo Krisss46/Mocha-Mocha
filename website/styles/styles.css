@@ -1,31 +1,36 @@
-body{
+body {
  margin: 0px;
 }
 
 @media (orientation: landscape) {
  #navbar {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(221, 124, 42, 1);
-  height: auto;
-  min-height: 12vh;
-  max-height: 20vh;
-  text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: rgba(221, 124, 42, 1);
+   min-height: 16vh;  /* Minimum height */
+   height: auto;      /* Height should adapt to content, but respect min-height */
+   text-align: center;
  }
- #navbar hr{
-  width: 80%;
+
+ #navbar hr {
+   width: 80%;
+   margin: 0;  /* Remove default margin to avoid any spacing issues */
+   padding: auto;
+   color: white;
  }
- #navbar button{
-  height: auto;
-  margin: auto;
-  padding: 3vh, 5vw, 3vh, 5vw;
-  margin-bottom: 5px;
+
+ #navbar button {
+   height: auto;
+   min-height: 2vh;
+   margin: 3px;
+   padding: 1.5vh 2vw;
  }
- #navbar h1{
-  font-size: 2vw;
-  margin: auto;
-  padding: auto;
+
+ #navbar h1 {
+   font-size: 2vw;
+   margin: 0;
+   padding: 0;
  }
 }
