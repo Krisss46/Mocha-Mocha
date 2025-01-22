@@ -1,0 +1,10 @@
+body{
+ margin: 0px;
+}
+
+@media (orientation: landscape) {
+ #navbar {
+     background-color: red;
+     height: 100px;
+ }
+}
