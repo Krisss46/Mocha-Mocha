@@ -4,7 +4,7 @@ body{
 
 @media (orientation: landscape) {
  #navbar {
-     background-color: red;
-     height: 100px;
+     background-color: rgba(221, 124, 42, 1);
+     height: 16vh;
  }
 }
