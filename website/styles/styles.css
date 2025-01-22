@@ -50,8 +50,27 @@ body {
   color: red;
   margin: 3vw
  }
- #home_page-page_header h1, #home_page-page_header p{
+ #home_page-page_header h1, #home_page-page_header pre {
   margin-right: 3vw;
-  font-size: 34px;
+  margin-bottom: 0;
+  font-size: 26px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ #home_page-page_header button {
+  background-color: pink;
+  margin-right: 6vw;
+  padding: 15px;
+  width: 15vw;
+  height: 9vh;
+  border-radius: 5px;
+  font-size: 2em;
+  font-weight: 700;
+  transition: all 0.3s ease;
+ }
+ #home_page-page_header button:hover {
+  width: 20vw;
+  height: 12vh;
+  margin-right: 3.5vw;
+  transition: all 0.3s ease;
  }
 }
