@@ -1,39 +1,41 @@
+/* Global */
 body {
  margin: 0px;
 }
 
+/* For desktop based browsers */
 @media (orientation: landscape) {
- #navbar {
+ /* Common Navigation Bar */
+ header {
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
    background-color: rgba(221, 124, 42, 1);
-   min-height: 16vh;  /* Minimum height */
-   height: auto;      /* Height should adapt to content, but respect min-height */
+   min-height: 16vh;
+   height: auto;
    text-align: center;
  }
-
- #navbar hr {
+ header hr {
    width: 80%;
-   margin: 0;  /* Remove default margin to avoid any spacing issues */
+   margin: 0;
    padding: auto;
    color: white;
  }
-
- #navbar button {
+ header button {
    height: auto;
    min-height: 2vh;
    margin: 3px;
    padding: 1.5vh 2vw;
  }
-
- #navbar h2 {
+ header h2 {
    font-size: 2vw;
    margin: 0;
    padding: 0;
  }
 
+/* Home Page styles */
+/* Introductory slide */
  #home_page-page_header {
   position: relative;
   width: 100vw;
@@ -48,7 +50,15 @@ body {
   width: 30vw;
   height: auto;
   color: red;
-  margin: 3vw
+  margin: 3vw;
+  transition: all 0.3s ease;
+ }
+ #home_page-page_header img:hover {
+  width: 34vw;
+  height: auto;
+  color: red;
+  margin: 1vw;
+  transition: all 0.3s ease;
  }
  #home_page-page_header h1, #home_page-page_header pre {
   margin-right: 3vw;
@@ -73,4 +83,7 @@ body {
   margin-right: 3.5vw;
   transition: all 0.3s ease;
  }
+
+
+ /**/
 }
