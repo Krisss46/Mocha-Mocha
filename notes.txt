@@ -1,3 +1,9 @@
 https://www.lircafe.com/
 
 reference website
+
+TODO:
+- Set proper description in main page first section
+- Add footer
+- add 3rd section on main page were a map with all business placements are located
+- get resources for background 

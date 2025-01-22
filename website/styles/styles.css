@@ -124,6 +124,7 @@ h3 {
   justify-content: center;
  }
  #home_page-featured-offers img {
-  
+  height: 10vw;
+  width: 10vw;
  }
 }
