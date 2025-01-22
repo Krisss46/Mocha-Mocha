@@ -3,6 +3,7 @@ body {
  margin: 0px;
 }
 
+
 /* For desktop based browsers */
 @media (orientation: landscape) {
  /* Common Navigation Bar */
@@ -32,6 +33,15 @@ body {
    font-size: 2vw;
    margin: 0;
    padding: 0;
+ }
+
+ /*Common arrows*/
+ .down_arrows {
+  width: 100%;
+  width: 5vw;
+  height: 2vw;
+  margin: auto;
+  opacity: .3;
  }
 
 /* Home Page styles */
