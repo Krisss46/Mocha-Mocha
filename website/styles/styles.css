@@ -1,6 +1,12 @@
 /* Global */
 body {
+ background-color: rgb(185, 185, 185);
  margin: 0px;
+}
+h3 {
+ margin: 0;
+ font-size: 35px;
+ padding: 50px;
 }
 
 
@@ -40,17 +46,10 @@ body {
   width: 100%;
   width: 5vw;
   height: 2vw;
-  margin: auto;
   opacity: .3;
   background-color: red;
  }
 
- /*Section seperator*/
- .section_seperator {
-  width: 100vw;
-  height: 1vh;
-  background-color: gray;
- }
 
 /* Home Page styles */
 /* Introductory slide */
@@ -63,7 +62,6 @@ body {
   display: flex;
   background-image: none;
   background-color: blue;
-  overflow: hidden;
  }
  #home_page-page_header img {
   width: 30vw;
@@ -106,13 +104,16 @@ body {
 
  /* Featured items slide */
  #home_page-featured {
-  position: relative;
+  background-color: orange;
   width: 100vw;
   height: 80vh;
-  justify-content: center;
-  flex-direction: row;
-  display: flex;
-  columns: 2;
-  background-image: none;
+  text-align: center;
+  transform: translateY(50px);
+  opacity: 0;
+ }
+ #home_page-featured.visible {
+  transform: translateY(0px);
+  opacity: 1;
+  transition: all 0.7s ease-in-out;
  }
 }
