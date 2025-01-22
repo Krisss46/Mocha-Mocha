@@ -3,8 +3,13 @@ body{
 }
 
 @media (orientation: landscape) {
+ 
  #navbar {
      background-color: rgba(221, 124, 42, 1);
      height: 16vh;
+     text-align: center;
+ }
+ #navbar button{
+  
  }
 }
