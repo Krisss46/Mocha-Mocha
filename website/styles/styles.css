@@ -116,4 +116,14 @@ h3 {
   opacity: 1;
   transition: all 0.7s ease-in-out;
  }
+ #home_page-featured-offers {
+  display: flex;
+  width: 100vw;
+  text-align: center;
+  gap: 10vw;
+  justify-content: center;
+ }
+ #home_page-featured-offers img {
+  
+ }
 }
