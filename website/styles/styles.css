@@ -85,13 +85,6 @@ h3 {
   margin: 1vw;
   transition: all 0.3s ease;
  }
- #home_page-page_header-logo{
-  position: absolute;
-  background-size: cover;
-  z-index: -1;
-  width: 100%;
-  filter: blur(3px);
- }
  #home_page-page_header h1, #home_page-page_header pre {
   margin-right: 3vw;
   margin-bottom: 0;
@@ -116,6 +109,13 @@ h3 {
   margin-right: 3.5vw;
   transition: all 0.3s ease;
  }
+ #home_page-page_header-bg {
+  position: absolute;
+  background-size: cover;
+  z-index: -1;
+  width: 100%;
+  filter: blur(3px);
+ }
 
 
  /* Featured items slide */
@@ -123,7 +123,8 @@ h3 {
   background-color: orange;
   width: 100vw;
   height: 60vh;
-  text-align: center;
+  min-height: 600px;
+  justify-content: center;
   transform: translateY(50px);
   opacity: 0;
  }
@@ -160,5 +161,12 @@ h3 {
   height: 20vw;
   width: 14vw;
   transition: all 0.7 ease-in-out;
+ }
+ #home_page-featured-bg {
+  position: absolute;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
  }
 }
