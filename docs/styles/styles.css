@@ -53,9 +53,11 @@ h3 {
 
  /* Common arrows */
  .down_arrows {
-  width: 100%;
+  position: absolute;
   width: 5vw;
   height: 2vw;
+  bottom: 0%;
+  right: 47.5%;
  }
 
 
@@ -64,49 +66,49 @@ h3 {
  #home_page-page_header {
   position: relative;
   width: 100vw;
-  height: 80vh;
-  min-height: 700px;
-  justify-content: center;
-  flex-direction: row;
-  display: flex;
+  height: 800px;
 }
  #logo {
+  left: 6%;
+  margin-top: 6%;
   position: absolute;
-  width: 30vw;
+  width: 30%;
   height: auto;
-  color: red;
-  margin: 3vw;
   transition: all 0.3s ease;
  }
  #logo:hover {
-  width: 34vw;
-  height: auto;
-  color: red;
-  margin: 1vw;
+  left: 4%;
+  margin-top: 4%;
+  width: 34%;
   transition: all 0.3s ease;
  }
  #home_page-page_header h1, #home_page-page_header pre {
-  margin-right: 3vw;
-  margin-bottom: 0;
+  position: absolute;
+  top: 20%;
+  right: 3%;
   font-size: 26px;
   color: white;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
  }
  #home_page-page_header button {
+  position: absolute;
+  font-size: 26px;
+  top: 60%;
+  right: 10%;
+  height: 8%;
+  width: 10%;
+  font-weight: 600;
   background-color: pink;
-  margin-right: 6vw;
-  padding: 15px;
-  width: 15vw;
-  height: 9vh;
   border-radius: 5px;
-  font-size: 2em;
-  font-weight: 700;
   transition: all 0.3s ease;
  }
  #home_page-page_header button:hover {
-  width: 20vw;
-  height: 12vh;
-  margin-right: 3.5vw;
+  position: absolute;
+  font-size: 36px;
+  top: 57%;
+  right: 7%;
+  height: 14%;
+  width: 16%;
   transition: all 0.3s ease;
  }
  #home_page-page_header-bg {
@@ -114,18 +116,17 @@ h3 {
   background-size: cover;
   z-index: -1;
   width: 100%;
+  height: 800px;
   filter: blur(3px);
  }
 
  /* Featured items slide */
  #home_page-featured {
-  background-color: orange;
+  position: relative;
   width: 100vw;
-  height: 70vh;
-  min-height: 600px;
-  justify-content: center;
-  transform: translateY(50px);
+  height: 700px;
   opacity: 0;
+  transform: translateY(50px);
  }
  #home_page-featured.visible {
   transform: translateY(0px);
@@ -135,49 +136,55 @@ h3 {
  #home_page-featured-offers {
   position: absolute;
   display: flex;
+  top: 24%;
   width: 100vw;
   text-align: center;
-  gap: 10vw;
   justify-content: center;
+  gap: 10vw;
  }
  #home_page-featured-offers img {
   height: 55%;
   width: 100%;
   border-radius: 16px 16px 0px 0px;
  }
- #home_page-featured-offers p {
-  font-size: 16px;
-  margin: 0;
-  text-wrap: wrap;
- }
  #home_page-featured-offer {
-  height: 16vw;
-  width: 10vw;
+  height: 36%;
+  width: 10%;
   background-color: rgba(216, 216, 216, 0.699);
   border-radius: 16px;
-  transition: all 0.7 ease-in-out;
+  transition: all 0.7s ease-in-out;
  }
  #home_page-featured-offer:hover{
   height: 20vw;
   width: 14vw;
-  transition: all 0.7 ease-in-out;
+  transition: all 0.7s ease-in-out;
  }
  #home_page-featured button {
-  width: 16vw;
-  height: 8vh;
-  padding: 1vh;
-  min-height: 60px;
+  position: absolute;
+  width: 16%;
+  height: 8%;
   background-color: pink;
   color: brown;
   font-size: 30px;
   font-weight: 600;
   border-radius: 5px;
-  top: 20%;
- }
+  top: 82%;
+  left: 42%;
+  transition: all .3s ease;
+}
+#home_page-featured button:hover {
+  width: 20%;
+  height: 12%;
+  top: 80%;
+  left: 40%;
+  font-size: 38px;
+  transition: all .3s ease;
+}
  #home_page-featured-bg {
   position: absolute;
   background-size: cover;
   width: 100%;
+  height: 700px;
   z-index: -1;
   filter: blur(3px);
  }
