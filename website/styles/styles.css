@@ -142,5 +142,17 @@ h3 {
  #home_page-featured-offers img {
   height: 10vw;
   width: 10vw;
+  border-radius: 16px 16px 0px 0px;
+ }
+ #home_page-featured-offers p {
+  font-size: 16px;
+  margin: 0;
+  text-wrap: wrap;
+ }
+ #home_page-featured-offer {
+  height: 16vw;
+  width: 10vw;
+  background-color: rgba(71, 71, 71, 0.555);
+  border-radius: 16px;
  }
 }
