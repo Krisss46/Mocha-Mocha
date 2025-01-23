@@ -32,7 +32,18 @@ h3 {
    height: auto;
    min-height: 2vh;
    margin: 3px;
-   padding: 1.5vh 2vw;
+   font-size: 38px;
+   font-weight: 600;
+   border-radius: 12px;
+   background-color: pink;
+   color: brown;
+   font-style: italic;
+   border: solid 0px black;
+ }
+ header button:hover {
+  margin-top: 1px;
+  font-weight: 900;
+  border: solid 2px black;
  }
  header h2 {
    font-size: 2vw;
@@ -79,6 +90,7 @@ h3 {
   background-size: cover;
   z-index: -1;
   width: 100%;
+  filter: blur(3px);
  }
  #home_page-page_header h1, #home_page-page_header pre {
   margin-right: 3vw;
