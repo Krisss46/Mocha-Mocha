@@ -140,8 +140,8 @@ h3 {
   justify-content: center;
  }
  #home_page-featured-offers img {
-  height: 10vw;
-  width: 10vw;
+  height: 55%;
+  width: 100%;
   border-radius: 16px 16px 0px 0px;
  }
  #home_page-featured-offers p {
@@ -152,7 +152,13 @@ h3 {
  #home_page-featured-offer {
   height: 16vw;
   width: 10vw;
-  background-color: rgba(71, 71, 71, 0.555);
+  background-color: rgba(131, 131, 131, 0.699);
   border-radius: 16px;
+  transition: all 0.7 ease-in-out;
+ }
+ #home_page-featured-offer:hover{
+  height: 20vw;
+  width: 14vw;
+  transition: all 0.7 ease-in-out;
  }
 }
