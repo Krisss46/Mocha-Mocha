@@ -9,7 +9,6 @@ h3 {
  padding: 50px;
 }
 
-
 /* For desktop based browsers */
 @media (orientation: landscape) {
  /* Common Navigation Bar */
@@ -18,7 +17,7 @@ h3 {
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   background-color: rgba(221, 124, 42, 1);
+   background-color: rgb(182, 88, 12);
    min-height: 16vh;
    height: auto;
    text-align: center;
@@ -46,41 +45,46 @@ h3 {
   width: 100%;
   width: 5vw;
   height: 2vw;
-  opacity: .3;
-  background-color: red;
  }
 
 
 /* Home Page styles */
 /* Introductory slide */
  #home_page-page_header {
+  position: relative;
   width: 100vw;
   height: 80vh;
   min-height: 700px;
   justify-content: center;
   flex-direction: row;
   display: flex;
-  background-image: none;
-  background-color: blue;
- }
- #home_page-page_header img {
+}
+ #logo {
+  position: absolute;
   width: 30vw;
   height: auto;
   color: red;
   margin: 3vw;
   transition: all 0.3s ease;
  }
- #home_page-page_header img:hover {
+ #logo:hover {
   width: 34vw;
   height: auto;
   color: red;
   margin: 1vw;
   transition: all 0.3s ease;
  }
+ #home_page-page_header-logo{
+  position: absolute;
+  background-size: cover;
+  z-index: -1;
+  width: 100%;
+ }
  #home_page-page_header h1, #home_page-page_header pre {
   margin-right: 3vw;
   margin-bottom: 0;
   font-size: 26px;
+  color: white;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
  }
  #home_page-page_header button {
@@ -106,7 +110,7 @@ h3 {
  #home_page-featured {
   background-color: orange;
   width: 100vw;
-  height: 80vh;
+  height: 60vh;
   text-align: center;
   transform: translateY(50px);
   opacity: 0;
