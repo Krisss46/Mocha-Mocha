@@ -1,6 +1,6 @@
 /* Global */
 body {
- background-color: rgb(185, 185, 185);
+ background-color: rgb(0, 0, 0);
  margin: 0px;
 }
 h3 {
@@ -288,7 +288,9 @@ h3 {
 
 
  /* Menus page */
- 
+ #menu_div {
+  background-color: aliceblue;
+ }
 }
 
 
