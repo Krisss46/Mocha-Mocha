@@ -255,7 +255,12 @@ h3 {
   height: 36vw;
   top: 18%;
   left: 32%;
+  border-radius: 15px;
+  border: 0;
  }
+
+ /* footer */
+ 
 }
 
 
