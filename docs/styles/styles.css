@@ -153,14 +153,14 @@ h3 {
   width: 100%;
   border-radius: 16px 16px 0px 0px;
  }
- #home_page-featured-offer {
+ .home_page-featured-offer {
   height: 36%;
   width: 10%;
   background-color: rgba(216, 216, 216, 0.699);
   border-radius: 16px;
   transition: all 0.7s ease-in-out;
  }
- #home_page-featured-offer:hover{
+ .home_page-featured-offer:hover{
   height: 20vw;
   width: 14vw;
   transition: all 0.7s ease-in-out;
@@ -285,7 +285,15 @@ h3 {
   color: #ffd700;
   transition: all 0.5s ease;
  }
+
+
+ /* Menus page */
+ 
 }
+
+
+
+
 
 
 
