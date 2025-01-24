@@ -11,6 +11,7 @@ h3 {
   color: white;
   text-align: center;
   margin: 0;
+  text-shadow: 0 0 2px black;
 }
 
 /* For desktop based browsers */
@@ -201,7 +202,6 @@ h3 {
   height: 700px;
   transform: translateY(50px);
   opacity: 0;
-  transition: all 0.7s ease-in-out;
  }
  #home_page-about_us.visible {
   transform: translateY(0px);
@@ -226,4 +226,41 @@ h3 {
   font-weight: 600;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
  }
+
+ /* business location section */
+ #home_page-buisness_location_map {
+  position: relative;
+  width: 100%;
+  height: 900px;
+  opacity: 0;
+  transform: translateY(50px);
+ }
+ #home_page-buisness_location_map.visible {
+  opacity: 1;
+  transform: translateY(0px);
+  transition: all 0.7s ease-in-out;
+ }
+ #home_page-buisness_location_map-bg {
+  position: absolute;
+  width: 100%;
+  height: 900px;
+  background-size: cover;
+  margin: 0;
+  z-index: -1;
+  filter: blur(3px);
+ }
+ #home_page-buisness_location_map iframe {
+  position: absolute;
+  width: 36vw;
+  height: 36vw;
+  top: 18%;
+  left: 32%;
+ }
 }
+
+
+
+
+/* ignore this for now
+its basically styles for mobile if we have time */
+@media (orientation: portrait){}
