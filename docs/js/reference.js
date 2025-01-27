@@ -1,1 +1,0 @@
-const respectMinHeight = document.querySelectorAll('.class-name')

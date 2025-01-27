@@ -145,20 +145,3 @@ Nulla pulvinar lorem eu gravida ultrices.
     </footer>
   </body>
 </html>
-
-<style>
-</style>
-
-<script>
-  const sections = document.querySelectorAll('div');
-
-  const observer = new IntersectionObserver((entries, observer) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('visible');
-      }
-    });
-  }, { threshold: 0.2 });
-
-  sections.forEach(section => observer.observe(section));
-</script>
