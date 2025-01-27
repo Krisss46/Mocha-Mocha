@@ -63,15 +63,16 @@ header nav a button:hover {
   font-size: 56px;
   font-style: italic;
   text-decoration: underline;
-  margin-bottom: 10px; /* Add spacing below the h1 */
+  margin-bottom: 10px; /* Adds space below h1 */
 }
 
 /* Styling for the paragraph text under h1 */
-#home_page-page_header pre {
+#home_page-page_header p {
   font-size: 18px;
-  text-align: left;
+  text-align: center;
   color: #563d2d;
-  margin-top: 10px; /* Space between h1 and the pre */
+  margin-top: 10px; /* Space between h1 and the p */
+  line-height: 1.5; /* Ensures good spacing between lines of text */
   margin-bottom: 20px; /* Optional: Adjust for spacing between button */
 }
 
