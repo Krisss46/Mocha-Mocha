@@ -149,3 +149,24 @@ footer a:hover {
         font-size: 0.8rem;
     }
 }
+
+
+/* Interactive order list */
+/* for js */
+.notification {
+    position: fixed;
+    background-color: white;
+    width: 20vw;
+    height: 80px;
+    top: 0%;
+    left: 40vw;
+    border-radius: 50px;
+    opacity: 1;
+    border: 2px solid black;
+    transition: all 2s ease;
+    text-align: center;
+  }
+.notification p {
+    flex-wrap: wrap;
+    color: black;
+}
