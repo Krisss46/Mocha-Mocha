@@ -1,10 +1,11 @@
-
+/* General reset and box-sizing */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Body and general layout */
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -43,7 +44,7 @@ header nav a button:hover {
   background-color: #9b6a50;
 }
 
-
+/* Home page header */
 #home_page-page_header {
   position: relative;
   text-align: center;
@@ -51,23 +52,30 @@ header nav a button:hover {
   background-color: #f0e6dc;
 }
 
+/* Ensure the image doesn't take more space than needed */
 #home_page-page_header img {
   max-width: 100%;
   height: auto;
 }
 
+/* Style for h1 and the content below it */
 #home_page-page_header h1 {
   font-size: 56px;
   font-style: italic;
   text-decoration: underline;
+  margin-bottom: 10px; /* Add spacing below the h1 */
 }
 
+/* Styling for the paragraph text under h1 */
 #home_page-page_header pre {
   font-size: 18px;
   text-align: left;
   color: #563d2d;
+  margin-top: 10px; /* Space between h1 and the pre */
+  margin-bottom: 20px; /* Optional: Adjust for spacing between button */
 }
 
+/* Styling for buttons */
 #home_page-page_header button {
   background-color: #785442;
   color: white;
@@ -82,12 +90,13 @@ header nav a button:hover {
   background-color: #9b6a50;
 }
 
+/* Arrow images */
 .down_arrows {
   width: 50px;
   margin: 10px auto;
 }
 
-
+/* Featured Section */
 #home_page-featured {
   text-align: center;
   padding: 40px 20px;
@@ -125,7 +134,7 @@ header nav a button:hover {
   transform: scale(1.05);
 }
 
-
+/* About Us Section */
 #home_page-about_us {
   padding: 40px 20px;
   background-color: #e6ded6;
@@ -138,7 +147,7 @@ header nav a button:hover {
   color: #333;
 }
 
-
+/* Menu Section */
 #menu_div {
   display: flex;
   flex-wrap: wrap;
@@ -186,7 +195,7 @@ header nav a button:hover {
   transform: scale(1.05);
 }
 
-
+/* Footer Section */
 footer {
   background-color: #563d2d;
   color: white;
