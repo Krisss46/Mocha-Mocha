@@ -1,14 +1,13 @@
-/* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500&display=swap');
 
-/* General reset and box-sizing */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body and general layout */
+
 body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.6;
@@ -16,7 +15,7 @@ body {
   background-color: #f9f7f3;
 }
 
-/* Header Section */
+
 header {
   background: linear-gradient(90deg, #785442, #563d2d);
   color: #fff;
@@ -53,27 +52,43 @@ header nav a button:hover {
   transform: scale(1.1);
 }
 
-/* Home Page Header */
+/* Combined Section: home_page-page_header */
 #home_page-page_header {
   position: relative;
   text-align: center;
   padding: 40px;
   background: linear-gradient(120deg, #f3e8df, #e6d8c7);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-#home_page-page_header img {
-  max-width: 100%;
+#home_page-page_header div {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+#logo {
+  max-width: 150px;
   height: auto;
+  margin-left: 20px;
 }
 
 #home_page-page_header h1 {
   font-family: 'Playfair Display', serif;
-  font-size: 64px;
+  font-size: 56px;
   font-style: italic;
   color: #563d2d;
   text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
   letter-spacing: 1px;
-  margin-bottom: 20px;
+  margin: 0;
+}
+
+#home_page-page_header-text {
+  flex-direction: column;
+  text-align: right;
+  margin-right: 20px;
 }
 
 #home_page-page_header p {
@@ -101,13 +116,13 @@ header nav a button:hover {
   transform: scale(1.1);
 }
 
-/* Arrow images */
+
 .down_arrows {
   width: 60px;
   margin: 15px auto;
 }
 
-/* Featured Section */
+
 #home_page-featured {
   text-align: center;
   padding: 50px 20px;
@@ -149,7 +164,7 @@ header nav a button:hover {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-/* About Us Section */
+
 #home_page-about_us {
   padding: 50px 20px;
   background-color: #f3e8df;
@@ -163,7 +178,7 @@ header nav a button:hover {
   font-weight: bold;
 }
 
-/* Menu Section */
+
 #menu_div {
   display: flex;
   flex-wrap: wrap;
@@ -212,7 +227,7 @@ header nav a button:hover {
   transform: scale(1.1);
 }
 
-/* Footer Section */
+
 footer {
   background: linear-gradient(90deg, #563d2d, #785442);
   color: white;
