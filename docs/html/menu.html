@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mocha - Home Page</title>
@@ -8,72 +8,58 @@
   <link rel="stylesheet" href="../styles/menustyles.css">
   <script src="../js/script.js" defer></script>
 
-  <!-- better search engine results -->
-  <meta name="keywords" content="Caffee, Mocha Mocha,">
-  <meta name="description" content="Welcome to Mocha Mocah. Indulge in rich flavors and exquisite moments with every sip.">
+  <!-- Meta tags for SEO -->
+  <meta name="keywords" content="Coffee, Mocha Mocha">
+  <meta name="description" content="Welcome to Mocha Mocha. Indulge in rich flavors and exquisite moments with every sip.">
 
-  <!-- determines how shared link appears on social platforms -->
-  <meta property="og:title" content="Mocha Mocha Caffee">
-  <meta property="og:description" content="Welcome to Mocha Mocah. Indulge in rich flavors and exquisite moments with every sip.">
-  <meta property="og:image" src="media/icon.png">
+  <!-- Social Media Sharing -->
+  <meta property="og:title" content="Mocha Mocha Coffee">
+  <meta property="og:description" content="Welcome to Mocha Mocha. Indulge in rich flavors and exquisite moments with every sip.">
+  <meta property="og:image" content="media/icon.png">
   <meta property="og:url" content="https://krisss46.github.io/Mocha-Mocha/">
   <meta property="og:type" content="website">
- </head>
-
-  
- <body>
-  <!-- Page Header, is reusable -->
+</head>
+<body>
+  <!-- Header -->
   <header>
-   <h2><i>Your Gourmet Caffee</i></h2><hr>
+    <h2><i>Your Gourmet Coffee</i></h2>
+    <hr>
     <nav>
-     <a href="../index.html"><button>Home</button></a>
-     <a href="#"><button>Menus</button></a>
-     <a href="Order online.html"><button>Order Online</button></a>
+      <a href="../index.html"><button>Home</button></a>
+      <a href="#"><button>Menus</button></a>
+      <a href="Order online.html"><button>Order Online</button></a>
     </nav>
   </header>
 
-  <!-- the actual menu -->
-   <main>
+  <!-- Menu Section -->
+  <main>
     <div id="menu_div">
       <div class="menu_item">
-        <img src="../media/black_tea.png">
-        <p>item description</p>
-        <button onclick="order(4, 'black tea')"> Order / 4$</button>
+        <img src="../media/black_tea.png" alt="Black Tea">
+        <p>Rich black tea brewed to perfection.</p>
+        <button onclick="order(4, 'Black Tea')">Order / $4</button>
       </div>
 
       <div class="menu_item">
-        <img src="../media/Chocolate_cake.png">
-        <p>item description</p>
-        <button onclick="order(4, 'Chocolate cake')"> Order / 4$</button>
+        <img src="../media/Chocolate_cake.png" alt="Chocolate Cake">
+        <p>Decadent chocolate cake for sweet moments.</p>
+        <button onclick="order(4, 'Chocolate Cake')">Order / $4</button>
       </div>
 
       <div class="menu_item">
-        <img src="../media/croissant.png">
-        <p>item description</p>
-        <button onclick="order(4, 'croissant')"> Order / 4$</button>
-      </div>
-
-      <div class="menu_item">
-        <img src="../media/black_tea.png">
-        <p>item description</p>
-        <button onclick="order()"> Order / 4$</button>
-      </div>
-
-
-      <div class="menu_item">
-        <img src="../media/black_tea.png">
-        <p>item description</p>
-        <button onclick="order()"> Order / 4$</button>
+        <img src="../media/croissant.png" alt="Croissant">
+        <p>Freshly baked buttery croissants.</p>
+        <button onclick="order(4, 'Croissant')">Order / $4</button>
       </div>
     </div>
-   </main>
- 
-  <!-- footer also reusable -->
+  </main>
+
+  <!-- Footer -->
   <footer>
     <div>
-      <a href="https://www.instagram.com/mochamochacaf/">instagram</a>
-      <a href="https://www.tiktok.com/@mochamochacaf">tictok</a>
-      <a href="https://www.facebook.com/profile.php?id=61572262236199">facebook</a>
+      <a href="https://www.instagram.com/mochamochacaf/">Instagram</a>
+      <a href="https://www.tiktok.com/@mochamochacaf">TikTok</a>
+      <a href="https://www.facebook.com/profile.php?id=61572262236199">Facebook</a>
     </div>
 
     <div>
@@ -84,20 +70,18 @@
 
     <div>
       <a href="#">Contact Us</a>
-      <a href="#home_page-about_us">About Us</a>
+      <a href="#about_us">About Us</a>
       <a href="#work_with_us">Work with Us</a>
     </div>
   </footer>
 
+  <!-- Order List -->
   <div id="order_list">
-    <h3>Your cart</h3>
+    <h3>Your Cart</h3>
     <hr style="width: 80%;">
     <div id="order_list_container"></div>
     <hr style="width: 80%;">
-    <button id="paymentBtn" style="margin: 10px; font-size: large;">Buy for null$</button>
+    <button id="paymentBtn" style="margin: 10px; font-size: large;">Buy for $0</button>
   </div>
-
-
-  <div id="AI_chat_btn" onclick="toggleChat()"></div>
- </body>
+</body>
 </html>
