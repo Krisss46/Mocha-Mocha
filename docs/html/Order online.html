@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mocha - Order Online</title>
+    <link rel="icon" href="media/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/orderonlinestyles.css">
+  </head>
+
+  <body>
+    <header>
+      <h2><i>Your Gourmet Caffee</i></h2><hr>
+      <nav>
+        <a href="#"><button>Home</button></a>
+        <a href="html/menu.html"><button>Menus</button></a>
+        <a href="#"><button>Order Online</button></a>
+      </nav>
+    </header>
+
+    <div id="order_page-header" style="text-align: center; padding: 50px;">
+      <h3>Order Your Favorite Items</h3>
+      <p>Indulge in the best of Mocha Mocha. Order your favorite drinks and food online!</p>
+    </div>
+
+    <div id="order_form">
+      <form action="order_process.php" method="POST">
+        <label for="item">Choose Your Item:</label>
+        <select name="item" id="item" required>
+          <option value="mocha">Mocha</option>
+          <option value="croissant">Croissant</option>
+          <option value="black_tea">Black Tea</option>
+          <option value="chocolate_cake">Chocolate Cake</option>
+        </select><br><br>
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="10" required><br><br>
+
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="address">Delivery Address:</label>
+        <input type="text" id="address" name="address" required><br><br>
+
+        <label for="payment">Payment Method:</label>
+        <select name="payment" id="payment" required>
+          <option value="credit_card">Credit Card</option>
+          <option value="paypal">PayPal</option>
+        </select><br><br>
+
+        <button type="submit">Place Order</button>
+      </form>
+    </div>
+
+    <footer>
+      <div>
+        <a href="https://www.instagram.com/mochamochacaf/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+        <a href="https://www.tiktok.com/@mochamochacaf" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a>
+        <a href="https://www.facebook.com/profile.php?id=61572262236199" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+      </div>
+
+      <div>
+        <a href="#">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#order_online">Order Online</a>
+      </div>
+
+      <div>
+        <a href="#">Contact Us</a>
+        <a href="#home_page-about_us">About Us</a>
+        <a href="#work_with_us">Work with Us</a>
+      </div>
+    </footer>
+  </body>
+</html>
