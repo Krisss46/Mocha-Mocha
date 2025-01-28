@@ -1,18 +1,18 @@
-/* Global Styles */
+
 body {
-    background-color: #121212; /* Darker background for consistency */
-    color: #f5f5f5; /* Light gray text for readability */
+    background-color: #121212; 
+    color: #f5f5f5; 
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
 }
 
-/* Header Styles */
+
 header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #b5580c; /* Deep orange-brown for header */
+    background-color: #b5580c;
     padding: 20px;
     text-align: center;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
@@ -43,7 +43,7 @@ header button {
     font-size: 1rem;
     font-weight: bold;
     color: #b5580c;
-    background-color: #ffc0cb; /* Softer pink for buttons */
+    background-color: #ffc0cb;
     border: none;
     border-radius: 20px;
     cursor: pointer;
@@ -51,15 +51,15 @@ header button {
 }
 
 header button:hover {
-    background-color: #ffe4e1; /* Lighter pink on hover */
+    background-color: #ffe4e1; 
     border: 2px solid #b5580c;
     transform: translateY(-2px);
 }
 
-/* Menu Section */
+
 main {
     padding: 40px 20px;
-    background-color: #1a1a1a; /* Slightly lighter black background */
+    background-color: #1a1a1a; 
 }
 
 #menu_div {
@@ -102,13 +102,13 @@ main {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
-/* Footer Styles */
+
 footer {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 30px 20px;
-    background-color: #b5580c; /* Deep orange-brown for footer */
+    background-color: #b5580c;
     color: #fff;
     box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.5);
 }
@@ -128,10 +128,10 @@ footer a {
 }
 
 footer a:hover {
-    color: #ffd700; /* Gold hover effect */
+    color: #ffd700; 
 }
 
-/* Notification Styles */
+
 .notification {
     position: fixed;
     top: 10%;
