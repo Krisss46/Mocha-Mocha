@@ -1,3 +1,12 @@
+/* Base Colors */
+:root {
+  --dark-green: #2d4a32;
+  --brown: #7a4b3a;
+  --creamy: #f5e2b8;
+  --white: #ffffff;
+  --text-color: #f1f1f1;
+}
+
 /* General Styles */
 * {
   margin: 0;
@@ -7,13 +16,13 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
+  background-color: var(--dark-green);
+  color: var(--text-color);
 }
 
 header {
-  background-color: #1a1a1a;
-  color: #fff;
+  background-color: var(--brown);
+  color: var(--creamy);
   padding: 20px 0;
   text-align: center;
 }
@@ -28,18 +37,27 @@ nav {
 
 nav a {
   margin: 0 15px;
+  color: var(--creamy);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: var(--white);
 }
 
 nav button {
-  background-color: #f4a300;
-  color: #fff;
+  background-color: var(--creamy);
+  color: var(--dark-green);
   border: none;
   padding: 10px 20px;
   cursor: pointer;
+  font-weight: bold;
 }
 
 nav button:hover {
-  background-color: #d38f00;
+  background-color: var(--brown);
+  color: var(--creamy);
 }
 
 /* Home Page */
@@ -72,6 +90,8 @@ nav button:hover {
 
 h1 {
   font-size: 56px;
+  color: var(--creamy);
+  text-shadow: 1px 1px 3px var(--brown);
 }
 
 pre {
@@ -79,16 +99,18 @@ pre {
 }
 
 button {
-  background-color: #f4a300;
-  color: #fff;
+  background-color: var(--creamy);
+  color: var(--dark-green);
   border: none;
   padding: 15px 30px;
   cursor: pointer;
   margin-top: 10px;
+  font-weight: bold;
 }
 
 button:hover {
-  background-color: #d38f00;
+  background-color: var(--brown);
+  color: var(--creamy);
 }
 
 /* Featured Section */
@@ -106,7 +128,7 @@ button:hover {
 
 #home_page-featured h3 {
   font-size: 32px;
-  color: #333;
+  color: var(--creamy);
 }
 
 #home_page-featured-offers {
@@ -133,6 +155,7 @@ button:hover {
 
 .home_page-featured-offer p {
   font-size: 18px;
+  color: var(--dark-green);
 }
 
 hr {
@@ -156,13 +179,14 @@ hr {
 
 #home_page-about_us h3 {
   font-size: 32px;
+  color: var(--brown);
 }
 
 #home_page-about_us pre {
   font-size: 18px;
   margin-top: 20px;
   line-height: 1.6;
-  color: #333;
+  color: var(--dark-green);
 }
 
 /* Business Location Map */
@@ -185,21 +209,21 @@ iframe {
 
 /* Footer */
 footer {
-  background-color: #1a1a1a;
-  color: #fff;
+  background-color: var(--dark-green);
+  color: var(--creamy);
   padding: 30px 0;
   text-align: center;
 }
 
 footer a {
-  color: #fff;
+  color: var(--creamy);
   text-decoration: none;
   margin: 0 15px;
   font-size: 18px;
 }
 
 footer a:hover {
-  color: #f4a300;
+  color: var(--brown);
 }
 
 footer div {
@@ -208,7 +232,7 @@ footer div {
 
 /* Menu Styles */
 #menu {
-  background-color: #fff;
+  background-color: var(--creamy);
   padding: 50px 0;
 }
 
@@ -216,6 +240,7 @@ footer div {
   font-size: 32px;
   text-align: center;
   margin-bottom: 40px;
+  color: var(--dark-green);
 }
 
 #menu .menu-item {
@@ -242,26 +267,28 @@ footer div {
 
 #menu .menu-item h4 {
   font-size: 22px;
+  color: var(--dark-green);
 }
 
 #menu .menu-item p {
   font-size: 16px;
   margin-top: 10px;
+  color: var(--brown);
 }
 
 #menu .menu-item .price {
   font-size: 20px;
-  color: #f4a300;
+  color: var(--creamy);
   font-weight: bold;
 }
 
 #menu .menu-item:hover {
-  background-color: #f4a300;
-  color: #fff;
+  background-color: var(--brown);
+  color: var(--creamy);
 }
 
 #menu .menu-item:hover .price {
-  color: #fff;
+  color: var(--creamy);
 }
 
 /* Media Queries */
