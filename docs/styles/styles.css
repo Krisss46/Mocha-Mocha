@@ -1,30 +1,35 @@
-/* General reset and box-sizing */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body and general layout */
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.6;
   color: #333;
-  background-color: #f8f8f8;
+  background-color: #f9f7f3;
 }
 
+
 header {
-  background-color: #563d2d;
+  background: linear-gradient(90deg, #785442, #563d2d);
   color: #fff;
   padding: 20px;
   text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 header h2 {
-  font-size: 28px;
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
   font-style: italic;
-  font-weight: bold; /* Bolder text */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow for better visibility */
+  margin-bottom: 10px;
 }
 
 header nav {
@@ -32,29 +37,28 @@ header nav {
 }
 
 header nav a button {
-  background-color: #785442;
+  background-color: #9b6a50;
   color: white;
   border: none;
-  padding: 12px 24px; /* Bigger buttons */
+  padding: 12px 24px;
   margin: 5px;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px; /* Larger text */
+  border-radius: 8px;
+  font-size: 16px;
   font-weight: bold;
   transition: background-color 0.3s, transform 0.3s;
 }
 
 header nav a button:hover {
-  background-color: #9b6a50;
+  background-color: #b07e68;
   transform: scale(1.1);
 }
 
-/* Home page header */
+
 #home_page-page_header {
   position: relative;
   text-align: center;
-  padding: 30px;
-  background-color: #f0e6dc;
+  padding: 40px;
+  background: linear-gradient(120deg, #f3e8df, #e6d8c7);
 }
 
 #home_page-page_header img {
@@ -63,18 +67,17 @@ header nav a button:hover {
 }
 
 #home_page-page_header h1 {
+  font-family: 'Playfair Display', serif;
   font-size: 64px;
   font-style: italic;
-  text-decoration: underline;
-  margin-bottom: 15px;
   color: #563d2d;
-  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
   letter-spacing: 1px;
+  margin-bottom: 20px;
 }
 
 #home_page-page_header p {
   font-size: 20px;
-  text-align: center;
   color: #785442;
   margin-top: 15px;
   line-height: 1.8;
@@ -89,7 +92,6 @@ header nav a button:hover {
   font-size: 18px;
   font-weight: bold;
   margin-top: 15px;
-  cursor: pointer;
   border-radius: 8px;
   transition: background-color 0.3s, transform 0.3s;
 }
@@ -99,13 +101,13 @@ header nav a button:hover {
   transform: scale(1.1);
 }
 
-/* Arrow images */
+
 .down_arrows {
   width: 60px;
   margin: 15px auto;
 }
 
-/* Featured Section */
+
 #home_page-featured {
   text-align: center;
   padding: 50px 20px;
@@ -113,11 +115,11 @@ header nav a button:hover {
 }
 
 #home_page-featured h3 {
+  font-family: 'Playfair Display', serif;
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 25px;
   color: #563d2d;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 #home_page-featured-offers {
@@ -147,10 +149,10 @@ header nav a button:hover {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-/* About Us Section */
+
 #home_page-about_us {
   padding: 50px 20px;
-  background-color: #e6ded6;
+  background-color: #f3e8df;
   text-align: center;
 }
 
@@ -161,7 +163,7 @@ header nav a button:hover {
   font-weight: bold;
 }
 
-/* Menu Section */
+
 #menu_div {
   display: flex;
   flex-wrap: wrap;
@@ -172,7 +174,7 @@ header nav a button:hover {
 }
 
 .menu_item {
-  background-color: #f9f9f9;
+  background-color: rgba(255, 255, 255, 0.9);
   border: 1px solid #ddd;
   border-radius: 10px;
   max-width: 200px;
@@ -188,9 +190,8 @@ header nav a button:hover {
 }
 
 .menu_item p {
-  font-size: 18px; /* Larger text */
+  font-size: 18px;
   font-weight: 500;
-  margin-bottom: 10px;
   color: #563d2d;
 }
 
@@ -199,7 +200,7 @@ header nav a button:hover {
   color: white;
   border: none;
   padding: 10px 15px;
-  font-size: 16px; /* Increased font size */
+  font-size: 16px;
   font-weight: bold;
   border-radius: 8px;
   cursor: pointer;
@@ -211,14 +212,9 @@ header nav a button:hover {
   transform: scale(1.1);
 }
 
-.menu_item:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
 
-/* Footer Section */
 footer {
-  background-color: #563d2d;
+  background: linear-gradient(90deg, #563d2d, #785442);
   color: white;
   padding: 25px;
   text-align: center;
@@ -234,6 +230,6 @@ footer a {
 }
 
 footer a:hover {
-  text-decoration: underline;
   color: #f0e6dc;
+  text-decoration: underline;
 }
