@@ -21,8 +21,10 @@ header {
 }
 
 header h2 {
-  font-size: 24px;
+  font-size: 28px;
   font-style: italic;
+  font-weight: bold; /* Bolder text */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow for better visibility */
 }
 
 header nav {
@@ -33,80 +35,89 @@ header nav a button {
   background-color: #785442;
   color: white;
   border: none;
-  padding: 10px 20px;
+  padding: 12px 24px; /* Bigger buttons */
   margin: 5px;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s;
+  font-size: 16px; /* Larger text */
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.3s;
 }
 
 header nav a button:hover {
   background-color: #9b6a50;
+  transform: scale(1.1);
 }
 
 /* Home page header */
 #home_page-page_header {
   position: relative;
   text-align: center;
-  padding: 20px;
+  padding: 30px;
   background-color: #f0e6dc;
 }
 
-/* Ensure the image doesn't take more space than needed */
 #home_page-page_header img {
   max-width: 100%;
   height: auto;
 }
 
-/* Style for h1 and the content below it */
 #home_page-page_header h1 {
-  font-size: 56px;
+  font-size: 64px;
   font-style: italic;
   text-decoration: underline;
-  margin-bottom: 10px; /* Adds space below h1 */
-}
-
-/* Styling for the paragraph text under h1 */
-#home_page-page_header p {
-  font-size: 18px;
-  text-align: center;
+  margin-bottom: 15px;
   color: #563d2d;
-  margin-top: 10px; /* Space between h1 and the p */
-  line-height: 1.5; /* Ensures good spacing between lines of text */
-  margin-bottom: 20px; /* Optional: Adjust for spacing between button */
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+  letter-spacing: 1px;
 }
 
-/* Styling for buttons */
+#home_page-page_header p {
+  font-size: 20px;
+  text-align: center;
+  color: #785442;
+  margin-top: 15px;
+  line-height: 1.8;
+  font-weight: 500;
+}
+
 #home_page-page_header button {
   background-color: #785442;
   color: white;
   border: none;
-  padding: 10px 20px;
-  margin-top: 10px;
+  padding: 12px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 15px;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 8px;
+  transition: background-color 0.3s, transform 0.3s;
 }
 
 #home_page-page_header button:hover {
   background-color: #9b6a50;
+  transform: scale(1.1);
 }
 
 /* Arrow images */
 .down_arrows {
-  width: 50px;
-  margin: 10px auto;
+  width: 60px;
+  margin: 15px auto;
 }
 
 /* Featured Section */
 #home_page-featured {
   text-align: center;
-  padding: 40px 20px;
+  padding: 50px 20px;
   background-color: #f5f5f5;
 }
 
 #home_page-featured h3 {
-  font-size: 28px;
-  margin-bottom: 20px;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  color: #563d2d;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 #home_page-featured-offers {
@@ -119,33 +130,35 @@ header nav a button:hover {
 .home_page-featured-offer {
   background-color: #fff;
   border: 1px solid #ddd;
-  border-radius: 10px;
-  padding: 20px;
+  border-radius: 12px;
+  padding: 25px;
   text-align: center;
   max-width: 200px;
-  transition: transform 0.3s;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .home_page-featured-offer img {
   max-width: 100%;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 .home_page-featured-offer:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 /* About Us Section */
 #home_page-about_us {
-  padding: 40px 20px;
+  padding: 50px 20px;
   background-color: #e6ded6;
   text-align: center;
 }
 
 #home_page-about_us pre {
-  font-size: 18px;
+  font-size: 20px;
   margin-top: 20px;
   color: #333;
+  font-weight: bold;
 }
 
 /* Menu Section */
@@ -165,7 +178,7 @@ header nav a button:hover {
   max-width: 200px;
   padding: 15px;
   text-align: center;
-  transition: transform 0.3s;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .menu_item img {
@@ -175,8 +188,10 @@ header nav a button:hover {
 }
 
 .menu_item p {
-  font-size: 16px;
+  font-size: 18px; /* Larger text */
+  font-weight: 500;
   margin-bottom: 10px;
+  color: #563d2d;
 }
 
 .menu_item button {
@@ -184,24 +199,32 @@ header nav a button:hover {
   color: white;
   border: none;
   padding: 10px 15px;
-  border-radius: 5px;
+  font-size: 16px; /* Increased font size */
+  font-weight: bold;
+  border-radius: 8px;
   cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
 }
 
 .menu_item button:hover {
   background-color: #9b6a50;
+  transform: scale(1.1);
 }
 
 .menu_item:hover {
   transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 /* Footer Section */
 footer {
   background-color: #563d2d;
   color: white;
-  padding: 20px;
+  padding: 25px;
   text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
 footer a {
@@ -212,4 +235,5 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;
+  color: #f0e6dc;
 }
