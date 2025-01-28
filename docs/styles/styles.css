@@ -7,13 +7,12 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #2f3b28; 
+  background-color: #263e2a; /
   color: #f1f1f1;
 }
 
-
 header {
-  background: linear-gradient(135deg, #4b7c4b, #3d5a3b);
+  background: linear-gradient(135deg, #1f7a3b, #4b9e5c); 
   color: #f1f1f1;
   padding: 30px 0;
   text-align: center;
@@ -38,12 +37,12 @@ nav a {
 }
 
 nav a:hover {
-  color: #ffd700; 
+  color: #ffcc00; 
 }
 
 nav button {
-  background-color: #ffd700;
-  color: #2f3b28;
+  background-color: #ffcc00;
+  color: #263e2a;
   border: none;
   padding: 12px 25px;
   cursor: pointer;
@@ -106,7 +105,7 @@ h1 {
 
 #home_page-featured h3 {
   font-size: 36px;
-  color: #ffd700;
+  color: #ffcc00;
   margin-bottom: 30px;
 }
 
@@ -141,7 +140,7 @@ h1 {
 
 .home_page-featured-offer p {
   font-size: 20px;
-  color: #2f3b28;
+  color: #263e2a;
   margin-top: 15px;
 }
 
@@ -154,7 +153,7 @@ h1 {
 
 #home_page-about_us h3 {
   font-size: 36px;
-  color: #3d5a3b;
+  color: #2b7a4d; 
   margin-bottom: 30px;
 }
 
@@ -162,7 +161,7 @@ h1 {
   font-size: 18px;
   margin-top: 20px;
   line-height: 1.8;
-  color: #2f3b28;
+  color: #263e2a;
   font-style: italic;
 }
 
@@ -181,7 +180,7 @@ iframe {
 
 
 footer {
-  background: linear-gradient(135deg, #4b7c4b, #3d5a3b);
+  background: linear-gradient(135deg, #1f7a3b, #4b9e5c);
   color: #f1f1f1;
   padding: 40px 20px;
   text-align: center;
@@ -196,7 +195,7 @@ footer a {
 }
 
 footer a:hover {
-  color: #ffd700;
+  color: #ffcc00;
 }
 
 footer div {
@@ -205,7 +204,7 @@ footer div {
 
 
 #menu {
-  background-color: #ffd700;
+  background-color: #ffcc00;
   padding: 60px 20px;
 }
 
@@ -213,7 +212,7 @@ footer div {
   font-size: 36px;
   text-align: center;
   margin-bottom: 40px;
-  color: #2f3b28;
+  color: #263e2a;
 }
 
 #menu .menu-item {
@@ -228,7 +227,7 @@ footer div {
 }
 
 #menu .menu-item:hover {
-  background-color: #ffd700;
+  background-color: #ffcc00;
   transform: scale(1.03);
 }
 
@@ -246,7 +245,7 @@ footer div {
 
 #menu .menu-item h4 {
   font-size: 24px;
-  color: #2f3b28;
+  color: #263e2a;
 }
 
 #menu .menu-item p {
@@ -257,7 +256,7 @@ footer div {
 
 #menu .menu-item .price {
   font-size: 22px;
-  color: #ffd700;
+  color: #ffcc00;
   font-weight: bold;
 }
 
