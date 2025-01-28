@@ -7,3 +7,5 @@ TODO:
 - Add footer
 - add 3rd section on main page were a map with all business placements are located
 - get resources for background 
+
+- add back qrcode to website
