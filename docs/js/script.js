@@ -58,10 +58,12 @@ function rmOrderItem(index, price){
   totalPrice -= price
   document.getElementById("paymentBtn").innerHTML = totalPrice + "$"
 
-  const childrenWithClass = parentElement.querySelectorAll('.your-class')
+  const orderList = document.getElementById("order_list")
+  const childrenWithClass = orderList.querySelectorAll('.list_item')
   const count = childrenWithClass.length
+  console.log(count)
 
   if (count == 0){
-    document.getElementById("order_list").style.display = "none"
+    orderList.style.display = "none"
   }
 }
