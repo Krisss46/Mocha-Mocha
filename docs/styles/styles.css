@@ -1,13 +1,4 @@
-/* Base Colors */
-:root {
-  --dark-green: #2d4a32;
-  --brown: #7a4b3a;
-  --creamy: #f5e2b8;
-  --white: #ffffff;
-  --text-color: #f1f1f1;
-}
 
-/* General Styles */
 * {
   margin: 0;
   padding: 0;
@@ -16,13 +7,13 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: var(--dark-green);
-  color: var(--text-color);
+  background-color: #2d4a32; 
+  color: #f1f1f1; 
 }
 
 header {
-  background-color: var(--brown);
-  color: var(--creamy);
+  background-color: #7a4b3a;
+  color: #f5e2b8; 
   padding: 20px 0;
   text-align: center;
 }
@@ -37,18 +28,18 @@ nav {
 
 nav a {
   margin: 0 15px;
-  color: var(--creamy);
+  color: #f5e2b8; 
   font-weight: bold;
   text-decoration: none;
 }
 
 nav a:hover {
-  color: var(--white);
+  color: #ffffff; 
 }
 
 nav button {
-  background-color: var(--creamy);
-  color: var(--dark-green);
+  background-color: #f5e2b8; 
+  color: #2d4a32; 
   border: none;
   padding: 10px 20px;
   cursor: pointer;
@@ -56,11 +47,11 @@ nav button {
 }
 
 nav button:hover {
-  background-color: var(--brown);
-  color: var(--creamy);
+  background-color: #7a4b3a; 
+  color: #f5e2b8; 
 }
 
-/* Home Page */
+
 #home_page-page_header {
   display: flex;
   justify-content: space-between;
@@ -90,8 +81,8 @@ nav button:hover {
 
 h1 {
   font-size: 56px;
-  color: var(--creamy);
-  text-shadow: 1px 1px 3px var(--brown);
+  color: #f5e2b8; 
+  text-shadow: 1px 1px 3px #7a4b3a; 
 }
 
 pre {
@@ -99,8 +90,8 @@ pre {
 }
 
 button {
-  background-color: var(--creamy);
-  color: var(--dark-green);
+  background-color: #f5e2b8; 
+  color: #2d4a32; 
   border: none;
   padding: 15px 30px;
   cursor: pointer;
@@ -109,11 +100,11 @@ button {
 }
 
 button:hover {
-  background-color: var(--brown);
-  color: var(--creamy);
+  background-color: #7a4b3a; 
+  color: #f5e2b8; 
 }
 
-/* Featured Section */
+
 #home_page-featured {
   position: relative;
   text-align: center;
@@ -128,7 +119,7 @@ button:hover {
 
 #home_page-featured h3 {
   font-size: 32px;
-  color: var(--creamy);
+  color: #f5e2b8; 
 }
 
 #home_page-featured-offers {
@@ -155,7 +146,7 @@ button:hover {
 
 .home_page-featured-offer p {
   font-size: 18px;
-  color: var(--dark-green);
+  color: #2d4a32; 
 }
 
 hr {
@@ -164,7 +155,7 @@ hr {
   margin: 10px auto;
 }
 
-/* About Us */
+
 #home_page-about_us {
   background-color: #fff;
   padding: 50px 0;
@@ -179,17 +170,17 @@ hr {
 
 #home_page-about_us h3 {
   font-size: 32px;
-  color: var(--brown);
+  color: #7a4b3a; 
 }
 
 #home_page-about_us pre {
   font-size: 18px;
   margin-top: 20px;
   line-height: 1.6;
-  color: var(--dark-green);
+  color: #2d4a32;
 }
 
-/* Business Location Map */
+
 #home_page-buisness_location_map {
   padding: 50px 0;
   text-align: center;
@@ -207,32 +198,32 @@ iframe {
   border: none;
 }
 
-/* Footer */
+
 footer {
-  background-color: var(--dark-green);
-  color: var(--creamy);
+  background-color: #2d4a32; 
+  color: #f5e2b8; 
   padding: 30px 0;
   text-align: center;
 }
 
 footer a {
-  color: var(--creamy);
+  color: #f5e2b8; 
   text-decoration: none;
   margin: 0 15px;
   font-size: 18px;
 }
 
 footer a:hover {
-  color: var(--brown);
+  color: #7a4b3a;
 }
 
 footer div {
   margin-bottom: 20px;
 }
 
-/* Menu Styles */
+
 #menu {
-  background-color: var(--creamy);
+  background-color: #f5e2b8; 
   padding: 50px 0;
 }
 
@@ -240,7 +231,7 @@ footer div {
   font-size: 32px;
   text-align: center;
   margin-bottom: 40px;
-  color: var(--dark-green);
+  color: #2d4a32; 
 }
 
 #menu .menu-item {
@@ -267,31 +258,31 @@ footer div {
 
 #menu .menu-item h4 {
   font-size: 22px;
-  color: var(--dark-green);
+  color: #2d4a32; 
 }
 
 #menu .menu-item p {
   font-size: 16px;
   margin-top: 10px;
-  color: var(--brown);
+  color: #7a4b3a; 
 }
 
 #menu .menu-item .price {
   font-size: 20px;
-  color: var(--creamy);
+  color: #f5e2b8; 
   font-weight: bold;
 }
 
 #menu .menu-item:hover {
-  background-color: var(--brown);
-  color: var(--creamy);
+  background-color: #7a4b3a; 
+  color: #f5e2b8; 
 }
 
 #menu .menu-item:hover .price {
-  color: var(--creamy);
+  color: #fff; 
 }
 
-/* Media Queries */
+
 @media (max-width: 768px) {
   #home_page-featured-offers {
     flex-direction: column;
