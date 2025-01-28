@@ -200,4 +200,11 @@ footer a:hover {
     text-align: center;
     color: #000;
     max-height: 800px;
+    display: none;
+}
+
+.list_item{
+    text-align: right;
+    margin-right: 40px;
+    margin-bottom: 10px;
 }
