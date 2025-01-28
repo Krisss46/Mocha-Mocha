@@ -1,43 +1,153 @@
 
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  text-align: center;
+  margin: 20px 0;
+  font-style: italic;
+}
+
+nav {
+  text-align: center;
+  margin: 20px 0;
+}
+
+nav a button {
+  background-color: #f4a300;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 25px;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+nav a button:hover {
+  background-color: #d38f00;
+}
+
+/* Header */
 #order_page-header {
-    background-color: #fff;
-    padding: 50px 0;
-  }
-  
+  background-color: #fff;
+  padding: 50px 0;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+#order_page-header h3 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+}
+
+#order_page-header p {
+  font-size: 1.2rem;
+  color: #7f8c8d;
+  margin-top: 10px;
+}
+
+/* Order Form Styles */
+#order_form {
+  max-width: 650px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#order_form label {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  display: block;
+  color: #2c3e50;
+}
+
+#order_form input, #order_form select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #2c3e50;
+}
+
+#order_form input:focus, #order_form select:focus {
+  border-color: #f4a300;
+  outline: none;
+}
+
+#order_form button {
+  background-color: #f4a300;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#order_form button:hover {
+  background-color: #d38f00;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+footer a {
+  color: #fff;
+  font-size: 1.1rem;
+  margin: 10px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #f4a300;
+}
+
+footer i {
+  font-size: 1.5rem;
+  margin-right: 8px;
+}
+
+/* Footer Links Layout */
+footer div {
+  margin-bottom: 20px;
+}
+
+footer div a {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+@media (max-width: 768px) {
   #order_form {
-    max-width: 600px;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    padding: 25px;
   }
-  
-  #order_form label {
-    font-size: 18px;
-    margin-bottom: 5px;
-    display: block;
+
+  nav a button {
+    font-size: 16px;
   }
-  
-  #order_form input, #order_form select {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+
+  footer {
+    padding: 30px 0;
   }
-  
-  #order_form button {
-    background-color: #f4a300;
-    color: #fff;
-    border: none;
-    padding: 15px 30px;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
-  }
-  
-  #order_form button:hover {
-    background-color: #d38f00;
-  }
-  
+}
