@@ -1,4 +1,4 @@
-/* General Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +14,7 @@ body {
   line-height: 1.6;
 }
 
-/* Header Styles */
+
 header {
   display: flex;
   flex-direction: column;
@@ -61,7 +61,7 @@ header button:hover {
   color: #b5580c;
 }
 
-/* Main Section */
+
 main {
   padding: 40px 20px;
   background-color: #1a1a1a;
@@ -117,7 +117,7 @@ main {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
-/* Footer */
+
 footer {
   display: flex;
   justify-content: space-around;
@@ -139,7 +139,7 @@ footer a:hover {
   color: #ffd700;
 }
 
-/* Order List */
+
 #order_list {
   position: fixed;
   top: 0;
