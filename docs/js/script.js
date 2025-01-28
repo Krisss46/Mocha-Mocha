@@ -19,3 +19,8 @@ function order(price, product) {
    div.remove();
  });
 }
+
+
+function addOrderList(){
+
+}

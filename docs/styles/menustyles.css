@@ -187,3 +187,17 @@ footer a:hover {
     font-size: 1rem;
     font-weight: bold;
 }
+
+#order_list {
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    width: 20vw;
+    height: auto;
+    background-color: wheat;
+    border-radius: 0px 0px 0px 50px;
+    justify-content: center;
+    text-align: center;
+    color: #000;
+    max-height: 800px;
+}
