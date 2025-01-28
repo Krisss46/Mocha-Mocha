@@ -13,7 +13,7 @@ body {
 
 
 header {
-  background: linear-gradient(135deg, #4b7c4b, #3d5a3b); 
+  background: linear-gradient(135deg, #4b7c4b, #3d5a3b);
   color: #f1f1f1;
   padding: 30px 0;
   text-align: center;
@@ -261,7 +261,7 @@ footer div {
   font-weight: bold;
 }
 
-/* Responsive Adjustments */
+
 @media (max-width: 768px) {
   #home_page-featured-offers {
     flex-direction: column;
