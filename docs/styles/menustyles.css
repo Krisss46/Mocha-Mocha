@@ -98,16 +98,16 @@ main {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
-/* Footer Styles */
+
 footer {
-    background-color: #b5580c;  /* Match header's color */
-    color: #fff;  /* Change footer text color to white */
+    background-color: #b5580c;  
+    color: #fff;  
     padding: 30px 0;
     text-align: center;
 }
   
 footer a {
-    color: #fff;  /* Change link color to white */
+    color: #fff;  
     text-decoration: none;
     margin: 0 15px;
     font-size: 18px;
@@ -121,7 +121,7 @@ footer div {
     margin-bottom: 20px;
 }
 
-/* Social Media Icons Styling */
+
 .social-icons {
     margin-top: 10px;
 }
@@ -130,7 +130,7 @@ footer div {
     display: inline-block;
     margin: 0 10px;
     font-size: 24px;
-    color: #fff;  /* Change icon color to white */
+    color: #fff; 
     transition: color 0.3s ease;
 }
 
@@ -138,56 +138,5 @@ footer div {
     color: #ffc107;
 }
 
-/* Chat Button Styles */
-#AI_chat_btn {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #b5580c;
-    color: #fff;
-    padding: 15px;
-    border-radius: 50%;
-    cursor: pointer;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    z-index: 100;
-}
 
-#chat_area {
-    display: none; 
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-}
 
-#outputField {
-    margin-bottom: 10px;
-}
-
-.chat_bubble {
-    background-color: #e4e4e4;
-    padding: 10px;
-    border-radius: 12px;
-}
-
-#inputField {
-    width: 100%;
-    padding: 10px;
-    border-radius: 10px;
-    border: 1px solid #ccc;
-}
-
-#submitBtn {
-    margin-top: 10px;
-    padding: 10px 20px;
-    background-color: #b5580c;
-    color: #fff;
-    border: none;
-    border-radius: 12px;
-    cursor: pointer;
-}
-
-#submitBtn:hover {
-    background-color: #ffc107;
-    color: #000;
-}
