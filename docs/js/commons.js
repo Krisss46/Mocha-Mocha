@@ -17,7 +17,7 @@ function toggleChat(){
 }
 
 function submitChat(){
- if (chatArea.value != ""){
+ if (input.value != ""){
   const newMsg = document.createElement("div")
  newMsg.innerHTML = input.value
  newMsg.setAttribute("class", "chat_bubble")
