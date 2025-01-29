@@ -17,7 +17,8 @@ function toggleChat(){
 }
 
 function submitChat(){
- const newMsg = document.createElement("div")
+ if (chatArea.value != ""){
+  const newMsg = document.createElement("div")
  newMsg.innerHTML = input.value
  newMsg.setAttribute("class", "chat_bubble")
  newMsg.style.textAlign = "left"
@@ -25,4 +26,5 @@ function submitChat(){
  output.appendChild(newMsg)
 
  input.value = ""
+ }
 }
