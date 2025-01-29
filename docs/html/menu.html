@@ -5,10 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mocha - Home Page</title>
   <link rel="icon" href="media/icon.png" type="image/x-icon">
-  <link rel="stylesheet" href="../styles/menustyles.css">
+  <link rel="stylesheet" href="../styles/menustyles.csss">
   <script src="../js/script.js" defer></script>
-  <link rel="stylesheet" href="../styles/commons.css">
+  <link rel="stylesheet" href="testingmenus.css">
   <script src="../js/commons.js" defer></script>
+
+ 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
   <meta name="keywords" content="Coffee, Mocha Mocha">
   <meta name="description" content="Welcome to Mocha Mocha. Indulge in rich flavors and exquisite moments with every sip.">
@@ -61,28 +64,64 @@
         <p>Creamy cappuccino with rich foam.</p>
         <button>Order / $5</button>
       </div>
-    </div>
-
-   
-    <div id="order_list">
-      <h3>Your Cart</h3>
-      <hr style="width: 80%;">
-      <div id="order_list_container"></div>
-      <hr style="width: 80%;">
-      <button id="paymentBtn" style="margin: 10px; font-size: large;">Buy for $0</button>
+      <div class="menu_item">
+        <img src="../media/latte.png" alt="Latte">
+        <p>Smooth and creamy latte with steamed milk.</p>
+        <button>Order / $5</button>
+      </div>
+      <div class="menu_item">
+        <img src="../media/donut.png" alt="Donut">
+        <p>Classic glazed donut, a perfect coffee companion.</p>
+        <button>Order / $3</button>
+      </div>
+      <div class="menu_item">
+        <img src="../media/macaron.png" alt="Macaron">
+        <p>Delicate French macaron with a crisp shell.</p>
+        <button>Order / $2</button>
+      </div>
     </div>
   </main>
 
   <div id="AI_chat_btn" class="closedWin" onclick="toggleChat()">
     <div id="chat_area" onclick="event.stopPropagation()">
-
       <div id="outputField">
         <div class="chat_bubble" style="text-align: right; color: rgb(255, 0, 43);">How can I help :3</div>
       </div>
-      <textarea id="inputField" type="text" placeholder="What can i do?"></textarea><br>
+      <textarea id="inputField" type="text" placeholder="What can I do?" aria-label="Chat input field"></textarea><br>
       <button id="submitBtn" onclick="submitChat()">Submit</button>
-      
     </div>
   </div>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h4>Follow Us</h4>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/mochamochacaf/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.tiktok.com/@mochamochacaf" target="_blank" title="TikTok"><i class="fab fa-tiktok"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=61572262236199" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <a href="#">Home</a>
+        <a href="html/menu.html">Menu</a>
+        <a href="html/Order online.html">Order Online</a>
+      </div>
+
+      <div class="footer-section">
+        <h4>Contact Us</h4>
+        <a href="mailto:example@example.com">Email Us</a>
+        <a href="#home_page-about_us">About Us</a>
+        <a href="#work_with_us">Work with Us</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 Mocha Mocha. All rights reserved.</p>
+      <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </div>
+  </footer>
 </body>
 </html>
