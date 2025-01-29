@@ -97,17 +97,17 @@ main {
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
-  
+
 /* Footer Styles */
 footer {
     background-color: #b5580c;  /* Match header's color */
-    color: #f5e2b8; 
+    color: #fff;  /* Change footer text color to white */
     padding: 30px 0;
     text-align: center;
 }
   
 footer a {
-    color: #f5e2b8;
+    color: #fff;  /* Change link color to white */
     text-decoration: none;
     margin: 0 15px;
     font-size: 18px;
@@ -130,7 +130,7 @@ footer div {
     display: inline-block;
     margin: 0 10px;
     font-size: 24px;
-    color: #f5e2b8;
+    color: #fff;  /* Change icon color to white */
     transition: color 0.3s ease;
 }
 
