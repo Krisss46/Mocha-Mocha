@@ -138,19 +138,19 @@ footer div {
     color: #ffc107;
 }
 
-/* Notification Styles */
+
 .notification {
   position: fixed;
   top: 10%;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #ff6347; /* Tomato red */
+  background-color: #ff6347; 
   color: #fff;
   padding: 15px;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   z-index: 1000;
-  display: none; /* Hidden by default */
+  display: none; 
   width: 80%;
   max-width: 300px;
   text-align: center;
