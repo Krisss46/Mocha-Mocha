@@ -230,3 +230,42 @@ footer .social-icons a:hover {
     font-size: 28px;
   }
 }
+
+/* Notification Styles */
+.notification {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ff6347; /* Tomato red */
+  color: #fff;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  display: none; /* Hidden by default */
+  width: 80%;
+  max-width: 300px;
+  text-align: center;
+}
+
+.notification p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.notification button {
+  background-color: #fff;
+  color: #ff6347;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.notification button:hover {
+  background-color: #f5f5f5;
+}
+
