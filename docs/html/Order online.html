@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Order your favorite gourmet drinks and food online from Mocha Mocha Café.">
+    <meta name="keywords" content="order online, coffee, mocha, croissant, delivery">
     <title>Mocha - Order Online</title>
     <link rel="icon" href="media/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="../styles/orderonlinestyles.css">
@@ -16,16 +18,16 @@
       <nav>
         <a href="../index.html"><button>Home</button></a>
         <a href="../html/menu.html"><button>Menus</button></a>
-        <a href="#"><button>Order Online</button></a>
+        <a href="#" class="active"><button>Order Online</button></a>
       </nav>
     </header>
 
-    <div id="order_page-header" style="text-align: center; padding: 50px;">
+    <section id="order_page-header" class="section-header">
       <h3>Order Your Favorite Items</h3>
       <p>Indulge in the best of Mocha Mocha. Order your favorite drinks and food online!</p>
-    </div>
+    </section>
 
-    <div id="order_form">
+    <section id="order_form">
       <form action="order_process.php" method="POST">
         <label for="item">Choose Your Item:</label>
         <select name="item" id="item" required>
@@ -33,6 +35,12 @@
           <option value="croissant">Croissant</option>
           <option value="black_tea">Black Tea</option>
           <option value="chocolate_cake">Chocolate Cake</option>
+          <option value="macarons">Macarons</option>
+          <option value="donut">Donut</option>
+          <option value="latte">Latte</option>
+          <option value="cappuccino">Cappuccino</option>
+          <option value="muffin">Muffin</option>
+          <option value="espresso">Espresso</option>
         </select><br><br>
 
         <label for="quantity">Quantity:</label>
@@ -65,48 +73,45 @@
           <option value="paypal">PayPal</option>
         </select><br><br>
 
-        <div id="order_summary">
+        <section id="order_summary">
           <h4>Order Summary</h4>
           <p><strong>Item:</strong> <span id="order_item">Mocha</span></p>
           <p><strong>Quantity:</strong> <span id="order_quantity">1</span></p>
           <p><strong>Total Price:</strong> <span id="total_price">$5.00</span></p>
-        </div>
+        </section>
 
         <button type="submit">Place Order</button>
       </form>
-    </div>
+    </section>
 
     <footer>
-      <div>
+      <div class="social-links">
         <a href="https://www.instagram.com/mochamochacaf/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
         <a href="https://www.tiktok.com/@mochamochacaf" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a>
         <a href="https://www.facebook.com/profile.php?id=61572262236199" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
       </div>
 
-      <div>
+      <div class="footer-nav">
         <a href="../index.html">Home</a>
         <a href="html/menu.html">Menu</a>
         <a href="#order_online">Order Online</a>
       </div>
 
-      <div>
+      <div class="footer-contact">
         <a href="#">Contact Us</a>
         <a href="#home_page-about_us">About Us</a>
         <a href="#work_with_us">Work with Us</a>
       </div>
     </footer>
 
-    <div id="AI_chat_btn" class="closedWin" onclick="toggleChat()">
+    <div id="AI_chat_btn" class="closedWin" onclick="toggleChat()" aria-label="Open Chatbot">
       <div id="chat_area" onclick="event.stopPropagation()">
-
         <div id="outputField">
           <div class="chat_bubble" style="text-align: right; color: rgb(255, 0, 43);">How can I help :3</div>
         </div>
-        <textarea id="inputField" type="text" placeholder="What can i do?"></textarea><br>
+        <textarea id="inputField" type="text" placeholder="What can I do?" aria-label="Ask the chatbot"></textarea><br>
         <button id="submitBtn" onclick="submitChat()">Submit</button>
-        
       </div>
     </div>
-
   </body>
 </html>
