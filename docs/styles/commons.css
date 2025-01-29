@@ -43,6 +43,11 @@
  bottom: 0%;
  border-radius: 0px 0px 0px 50px;
  margin: 0;
+ background-color: orange;
+ font-size: large;
+ height: 6vh;
+ border: none;
+ font-weight: bold;
 }
 
 #inputField {

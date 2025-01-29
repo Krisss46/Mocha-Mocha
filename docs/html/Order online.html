@@ -6,6 +6,8 @@
     <title>Mocha - Order Online</title>
     <link rel="icon" href="media/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="../styles/orderonlinestyles.css">
+    <link rel="stylesheet" href="../styles/commons.css">
+    <script src="../js/commons.js" defer></script>
   </head>
 
   <body>
@@ -93,5 +95,18 @@
         <a href="#work_with_us">Work with Us</a>
       </div>
     </footer>
+
+    <div id="AI_chat_btn" class="closedWin" onclick="toggleChat()">
+      <div id="chat_area" onclick="event.stopPropagation()">
+
+        <div id="outputField">
+          <div class="chat_bubble" style="text-align: right; color: rgb(255, 0, 43);">How can I help :3</div>
+        </div>
+        <textarea id="inputField" type="text" placeholder="What can i do?"></textarea><br>
+        <button id="submitBtn" onclick="submitChat()">Submit</button>
+        
+      </div>
+    </div>
+
   </body>
 </html>
